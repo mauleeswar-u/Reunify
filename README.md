@@ -1,68 +1,70 @@
-# Reunify
-This is the project created for Samgatha X Vashisht Hackathon 2.0 held at Indian Institute of Information Technology , Design &amp; Manufacturing Kancheepuram. 
+# Getting Started with Create React App
 
-## Problem Statement  
-Losing personal belongings in public places like airports, parks, restaurants, and malls is a common issue. Existing lost-and-found services are often inefficient, lack transparency, and provide limited tracking capabilities. There is a need for a centralized, user-friendly platform to streamline the process of reporting, tracking, and recovering lost items.  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Solution  
-The **Reunify** is a web-based solution designed to connect individuals who have lost or found items. It offers users the ability to report lost or found items with detailed descriptions, photos, and location information. The platform includes features such as location-based search, notifications, and an admin dashboard for verification and management. Future enhancements could include AI-powered image recognition to improve item-matching accuracy.  
+## Available Scripts
 
-## Features  
-- **User Registration and Authentication**: Secure user accounts for managing reports.  
-- **Report Lost/Found Items**: Users can submit detailed reports with images, descriptions, and locations.  
-- **Location-Based Search**: Interactive maps display nearby lost and found items.  
-- **Notification System**: Users receive alerts when a matching item is reported.  
-- **Verification System**: Ensures accurate matching and minimizes fraudulent claims.  
-- **Admin Dashboard**: Enables administrators to oversee reports, verify claims, and resolve disputes.  
-- **AI Integration (Future Scope)**: Facilitates image recognition for automated item matching.  
+In the project directory, you can run:
 
-## Installation and Setup  
+### `npm start`
 
-### Prerequisites  
-Ensure the following are installed:  
-- **Node.js** (Backend and frontend development)  
-- **MongoDB** (Database management)  
-- **Express.js** (Backend framework)  
-- **React.js** (Frontend framework)  
-- **Google Maps API** (Location services)  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Steps to Install  
-1. Clone the repository:  
-    ```bash
-    git clone https://github.com/your-repo/lost-and-found.git
-    cd lost-and-found
-    ```
-2. Install backend dependencies:  
-    ```bash
-    cd backend
-    npm install
-    ```
-3. Install frontend dependencies:  
-    ```bash
-    cd frontend
-    npm install
-    ```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Running the Application  
-1. Start the backend server:  
-    ```bash
-    cd backend
-    npm start
-    ```
-2. Start the frontend server:  
-    ```bash
-    cd frontend
-    npm start
-    ```
-3. Access the application in a browser:  
-    ```bash
-    http://localhost:3000
-    ```
+### `npm test`
 
-## Future Enhancements  
-- **AI Image Recognition**: Enhance item matching using computer vision algorithms.  
-- **QR Code Integration**: Simplify item reporting and tracking using QR codes.  
-- **Mobile App Development**: Expand accessibility through Android and iOS applications.  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
