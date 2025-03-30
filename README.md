@@ -63,3 +63,4 @@ Ensure the following are installed:
 - **QR Code Integration**: Simplify item reporting and tracking using QR codes.  
 - **Mobile App Development**: Expand accessibility through Android and iOS applications.  
 
+[Youtube Video](https://youtu.be/mKkElcMTkhU?si=mQR5LoTtJnWE5vu1)
